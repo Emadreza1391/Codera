@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="description" content="کتاب‌ها و جزوات آموزشی رایگان کُدرا">
+<title>کتاب‌ها و جزوات آموزشی | کُدرا</title>
+<link rel="stylesheet" href="css/style.css">
+<style>
+.books-hero{padding:65px 0;background:linear-gradient(135deg,#071426,#163b86 65%,#2563eb);color:#fff}
+.books-hero h1{font-size:clamp(34px,5vw,52px);margin:12px 0}.books-hero p{color:#dbeafe;line-height:2;max-width:700px}
+.books-main{padding:65px 0 90px}.book-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px}.book-card{background:#fff;border:1px solid var(--line);border-radius:22px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}.book-cover{height:190px;background:linear-gradient(135deg,#eaf1ff,#dbeafe);display:grid;place-items:center;color:var(--blue);font-size:58px}.book-body{padding:22px}.book-body h2{font-size:21px;margin:0 0 10px}.book-meta{display:grid;gap:8px;color:var(--muted);font-size:13px;line-height:1.8}.book-meta strong{color:var(--ink)}.book-btn{display:block;margin-top:20px;background:var(--blue);color:#fff;text-align:center;padding:12px;border-radius:13px;font-weight:800}.book-btn:hover{background:var(--blue2)}
+.back-home{display:inline-block;margin-top:18px;color:#bfdbfe}.no-books{text-align:center;color:var(--muted);padding:50px}
+@media(max-width:950px){.book-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.book-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header class="books-hero"><div class="container">
+<a class="brand" href="index.html"><img src="images/Logo.png" alt="لوگوی کُدرا"><span>کُدرا</span></a>
+<h1>کتاب‌ها و جزوات آموزشی</h1>
+<p>منابع آموزشی رایگان کُدرا برای مطالعه و یادگیری بیشتر. کتاب‌ها و جزوات جدید به مرور به این بخش اضافه می‌شوند.</p>
+<a class="back-home" href="index.html">← بازگشت به صفحه اصلی</a>
+</div></header>
+<main class="books-main"><div class="container">
+<div class="section-title"><div><span>منابع آموزشی</span><h2>کتاب‌ها و جزوات</h2></div><b id="bookCount">۱ کتاب</b></div>
+<div id="bookGrid" class="book-grid"></div>
+<p id="empty" class="no-books" hidden>هنوز کتاب یا جزوه‌ای اضافه نشده است.</p>
+</div></main>
+<footer><div class="container footer"><div class="brand footer-brand"><img src="images/Logo.png" alt="لوگوی کُدرا"><span>کُدرا</span></div><span>تمامی منابع آموزشی این بخش رایگان هستند.</span></div></footer>
+<script src="js/books.js"></script>
+</body></html>
