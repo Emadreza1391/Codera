@@ -134,6 +134,14 @@ const courses=[
     "description": "آشنایی با موتورهای جست‌وجو و مفاهیم کاربردی جست‌وجوی اطلاعات.",
     "url": "https://www.aparat.com/v/pgqqjd7?playlist=26830970&refererRef=channel_page",
     "image": "images/banners/search.png"
+  },
+    {
+    "title": "دوره دعا | زیارات | ماجات",
+    "key": "search",
+    "category": "فناوری",
+    "description": "آشنایی با دعا و زیارت و مناجات و دینی.",
+    "url": "https://www.aparat.com/v/fwrbj9y?playlist=27359476&refererRef=channel_page",
+    "image": "images/banners/doa.png"
   }
 ];
 const grid=document.getElementById('courseGrid'),search=document.getElementById('searchInput'),count=document.getElementById('resultCount'),empty=document.getElementById('empty'),filters=document.getElementById('filters'),categoryCards=document.getElementById('categoryCards');
