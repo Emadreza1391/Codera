@@ -15,3 +15,14 @@
 .empty{text-align:center;color:var(--muted);padding:35px}
 @media(max-width:950px){.course-grid{grid-template-columns:repeat(2,1fr)}.category-grid{grid-template-columns:repeat(2,1fr)}.hero-card{display:none}.toolbar{flex-direction:column}}
 @media(max-width:620px){.nav-links{display:none}.mobile-menu{display:block}.hero-content{padding:40px 0}.hero h1{font-size:39px}.hero p{font-size:16px}.stats{grid-template-columns:1fr}.stats div{border-left:0;border-bottom:1px solid var(--line);padding:12px}.course-grid,.category-grid,.social-grid{grid-template-columns:1fr}.section-title h2{font-size:27px}.footer{flex-direction:column;gap:10px}}
+
+.contact-section{padding:75px 0;background:#fff;border-top:1px solid var(--line)}
+.contact-intro{color:var(--muted);margin:-10px 0 25px;line-height:2}
+.support-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.support-card{background:var(--bg);border:1px solid var(--line);border-radius:18px;padding:20px;display:flex;flex-direction:column;gap:7px;transition:.2s}
+.support-card:hover{transform:translateY(-3px);border-color:#93c5fd;box-shadow:0 10px 25px rgba(20,33,61,.07)}
+.support-card span{font-size:13px;color:var(--muted)}
+.support-card strong{font-size:20px;direction:ltr;text-align:right}
+.support-card b{color:var(--blue);font-size:13px}
+@media(max-width:950px){.support-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:620px){.support-grid{grid-template-columns:1fr}}
