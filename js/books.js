@@ -10,6 +10,12 @@ const books = [
     author: "عمادرضا عباس پور",
     subject: "هوش مصنوعی",
     file: "books/AI-Level.pdf"
+  },
+    {
+    title: "جزوه فصل اول ریاضی نهم",
+    author: "عمادرضا عباس پور",
+    subject: "ریاضی",
+    file: "books/ریاضی نهم فصل اول.pptx"
   }
 ];
 
