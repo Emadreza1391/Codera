@@ -142,7 +142,15 @@ const courses=[
     "description": "آشنایی با دعا و زیارت و مناجات و دینی.",
     "url": "https://www.aparat.com/v/fwrbj9y?playlist=27359476&refererRef=channel_page",
     "image": "images/banners/doa.png"
-  }
+  },
+      {
+    "title": "دوره ریاضی پایه نهم",
+    "key": "lessen",
+    "category": "درسی",
+    "description": "یادگیری کامل ریاضی پایه نهم از صفر تا سطح تیزهوشان.",
+    "url": "https://www.aparat.com/v/frnh7h3?playlist=27365099&refererRef=channel_page",
+    "image": "images/banners/riazi.png"
+  },
 ];
 const grid=document.getElementById('courseGrid'),search=document.getElementById('searchInput'),count=document.getElementById('resultCount'),empty=document.getElementById('empty'),filters=document.getElementById('filters'),categoryCards=document.getElementById('categoryCards');
 const cats=['همه',...new Set(courses.map(c=>c.category))];let active='همه';
