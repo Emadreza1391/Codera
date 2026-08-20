@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ارسال تکلیف | کُدرا</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="page">
+<section class="card">
+  <div class="logo">کُدرا</div>
+  <span class="badge">📤 ارسال تکلیف</span>
+  <h1>تکلیف خود را ارسال کنید</h1>
+  <p class="lead">اطلاعات خود را وارد کنید و فایل تکلیف را برای مجموعه کُدرا ارسال کنید.</p>
+
+  <form id="homeworkForm">
+    <label>نام و نام خانوادگی
+      <input id="name" type="text" maxlength="80" required placeholder="نام و نام خانوادگی">
+    </label>
+
+    <label>دوره
+      <select id="course" required>
+        <option value="">انتخاب دوره</option>
+        <option>دوره معرفی هوش مصنوعی</option>
+        <option>دوره برنامه نویسی اچ تی ام ال</option>
+        <option>دوره انقلابی</option>
+        <option>دوره آموزش ورد</option>
+        <option>دوره آموزش ورزشی</option>
+        <option>دوره آموزش پاورپوینت</option>
+        <option>دوره راه اندازی کسب و کار</option>
+        <option>دوره طراحی اپلیکیشن موبایل</option>
+        <option>دوره برنامه نویسی اردوینو</option>
+        <option>دوره برنامه نویسی اسکرچ</option>
+        <option>دوره برنامه نویسی پایتون</option>
+        <option>دوره الکترونیک مقدماتی</option>
+        <option>دوره آموزش جامع ویندوز 11</option>
+        <option>دوره آموزش های کاربردی الکترونیک</option>
+        <option>دوره معرفی بازی</option>
+        <option>دوره طنز</option>
+        <option>دوره موتورجستجوگر</option>
+      </select>
+    </label>
+
+    <label>توضیحات (اختیاری)
+      <textarea id="description" maxlength="500" placeholder="اگر توضیحی درباره تکلیف دارید..."></textarea>
+    </label>
+
+    <label>فایل تکلیف
+      <input id="file" type="file" required accept=".pdf,.zip,.rar,.doc,.docx,.ppt,.pptx,.jpg,.jpeg,.png,.txt">
+      <small>PDF، ZIP، RAR، Word، PowerPoint، تصویر یا TXT — حداکثر 10MB</small>
+    </label>
+
+    <button id="submitBtn" type="submit">🚀 ارسال تکلیف</button>
+    <div id="status" role="status"></div>
+  </form>
+</section>
+</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
